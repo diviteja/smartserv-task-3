@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='index.js'></script>
+</head>
+<body>
+    <div class="outer-box">
+        <img class="logo" src="login_page.png" >
+
+        <form class="form" onsubmit=" return validateForm()" action="#">
+            <input id="email" class="input-element" type="text" placeholder="Username">    
+            <input id="pass" class="input-element" type="password" placeholder="Password">    
+            <button type="submit" class="login-btn" >
+                Login
+            </button>
+            <a class="forget-link"  >Forgot your password?</a>
+        </form>
+    </div>
+</body>
+</html>
